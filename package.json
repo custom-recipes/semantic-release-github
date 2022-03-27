@@ -1,0 +1,36 @@
+{
+	"name": "semantic-release-github",
+	"version": "1.0.0",
+	"description": " The Blitz.js Recipe for installing @semantic-release/github.",
+	"main": "index.ts",
+	"scripts": {
+		"commit": "cz",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/custom-recipes/semantic-release-github.git"
+	},
+	"keywords": [
+		"blitz",
+		"blitz.js",
+		"recipe"
+	],
+	"author": "Stefan Kühnel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/custom-recipes/semantic-release-github/issues"
+	},
+	"homepage": "https://github.com/custom-recipes/semantic-release-github#readme",
+	"dependencies": {
+		"@blitzjs/installer": "^0.45.3"
+	},
+	"devDependencies": {
+		"cz-conventional-changelog": "^3.3.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}
