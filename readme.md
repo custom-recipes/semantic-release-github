@@ -1,18 +1,18 @@
-# conventional-release
+# semantic-release-github
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-The Blitz.js Recipe for installing [`Semantic Release`](https://github.com/semantic-release/semantic-release).
+The Blitz.js Recipe for installing [`@semantic-release/github`](https://github.com/semantic-release/github).
 
 ```sh
-blitz install custom-recipes/conventional-release -y
+blitz install custom-recipes/semantic-release-github -y
 ```
 
 ## More information
 
 - [How to use receipes in Blitz](https://blitzjs.com/docs/using-recipes)
-- [Learn about `semantic-release`](https://semantic-release.gitbook.io/semantic-release/)
-- [Semantic Release's Github](https://github.com/semantic-release/semantic-release)
+- [Learn about Semantic Release](https://semantic-release.gitbook.io/semantic-release/)
+- [`@semantic-release/github`'s Github](https://github.com/semantic-release/github)
 
 ## Found a bug?
 
